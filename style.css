@@ -1,0 +1,72 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Will only select anything with a body tag */
+body {
+    background: lightgreen;
+
+}
+
+.about {
+    margin-top: 30px;
+}
+
+.profilepicture {
+    border-radius: 50%;
+    /* Turns circle */
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+
+    /* This centers our image */
+    display: block;
+    margin: 0 auto;
+}
+
+.name {
+    text-align: center;
+}
+
+.button {
+    background: white;
+    color: black;
+    display: block;
+    height: 60px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 20px auto;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+.button_icon {
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 35px;
+    left: 50px;
+    top: 10px;
+}
+
+.socials {
+    list-style-type: none;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.socialli {
+    display: inline-block;
+}
+
+.sociallogo {
+    width: 20px;
+    height: 20px;
+    filter: invert(100%);
+    margin: 5px;
+}
